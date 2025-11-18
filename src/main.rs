@@ -250,7 +250,7 @@ fn run_game() {
         let secret_code = generate_secret();
         
         // *** DEBUGGING PRINT ***
-        println!("DEBUG: {}'s Secret Code is: {}{}{}{}", 
+        //println!("DEBUG: {}'s Secret Code is: {}{}{}{}", 
                  name, secret_code[0], secret_code[1], secret_code[2], secret_code[3]);
         
         players.push(Player { name, secret_code, rank: None });
